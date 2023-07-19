@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
+}
+.star{
+  color:gold;
+  font-size: 20px;
+}
+label{
+  border-bottom: 2px solid green;
+  width:max-content;
+  color:blue;
+
+}
+.descrip{
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logout{
+  position: absolute;
+  top:5px;
+  right:5px ;
+  border:none;
+  border-radius: 5px;
+  padding:15px 20px;
+  background-color: red;
+  font-size: 15px;
+
+}
+.register{
+  position: absolute;
+  top:5px;
+  right:5px ;
+  border:none;
+  border-radius: 5px;
+  padding:15px 20px;
+  background-color: blue;
+  font-size: 15px;
+}
+.login{
+  position: absolute;
+  top:5px;
+  right:120px ;
+  border:none;
+  border-radius: 5px;
+  padding:15px 20px;
+  background-color: green;
+  font-size: 15px;
+}
+.logoutform{
+  border:2px solid grey;
+  display:flex;
+  justify-content: space-around;
+  position:absolute;
+  top:50px;
+  left:500px;
+  background-color: blue;
+
+}
+.registerform{
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
+  position: absolute;
+  top:240px;
+  left:240px;
+  width:300px;
+  height:300px;
+  background-color: white;
+  margin:10px;
+  padding:10px;
+  border-radius: 10px;
+
+}
+.registerButton{
+  background-color: blue;
+  height:40px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.registerInput{
+  border:none;
+  font-size:20px;
+  border-bottom: 2px solid black;
+}
+.registerCancel{
+  position: absolute;
+  top:5px;
+  right:5px;
+}
+.registerNotation{
+  color:green;
+}
+.registerNotation2{
+  color:red;
+}
